@@ -25,6 +25,7 @@ body {
 
 .main {
 
+    height: 800px;
     min-height: 40vh; /* Ensure the section takes at least the full viewport height */
     display: flex;
     justify-content: center;
@@ -33,7 +34,7 @@ body {
     padding: 80px;
     margin-top: 100px;
     border-radius: 0.75rem;
-    background-image: url("../images/1ea9f0d4-mex-la-gestion-ambiental-presente-en-tiempos-de-pandemia.jpg");
+    background-image: url("../images/billete5colonea.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center; /* Center the background image */
