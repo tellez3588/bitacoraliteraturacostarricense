@@ -1,0 +1,205 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgray;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar {
+    background-color: lightgray;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+    opacity: 0.9;
+
+}
+
+.main {
+
+    min-height: 40vh; /* Ensure the section takes at least the full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 80px;
+    margin-top: 100px;
+    border-radius: 0.75rem;
+    background-image: url("../images/1ea9f0d4-mex-la-gestion-ambiental-presente-en-tiempos-de-pandemia.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; /* Center the background image */
+
+}
+
+.semanas {
+    background-color: rgb(209, 227, 228);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 80px;
+    margin-top: 100px;
+    border-radius: 0.75rem;
+}
+
+.semanas img {
+
+    width: auto;
+    height: 468px;
+}
+
+
+
+.card {
+    margin-top: 50px;
+    height: 700px;
+}
+
+
+footer {
+    width: 100%;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+    border-radius: 0.75rem;
+
+}
+
+
+
+footer article {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.rights {
+    display: flex;
+    text-align: center;
+    flex-flow: column;
+}
+
+footer img {
+    width: 10px;
+    height: 10px;
+    padding-right: 5px;
+}
+
+.footerlist img {
+    width: 60px;
+    height: 60px;
+}
+
+/* For screens with a maximum width of 768px */
+@media (max-width: 768px) {
+    .navbar {
+        text-align: center;
+        padding: 5px;
+        position: fixed;
+        z-index: 999;
+        opacity: 0.9;
+    }
+
+    .main,
+    .semanas {
+        padding: 20px;
+        /* Adjust padding for smaller screens */
+    }
+
+    .main {
+        margin-top: 150px;
+        /* Reset padding for larger screens */
+
+    }
+
+    .card {
+        width: 100%;
+        /* Make cards full width on smaller screens */
+        max-width: 300px;
+        /* Limit the maximum width of the card */
+    }
+
+    footer {
+        padding: 20px;
+        /* Adjust padding for smaller screens */
+    }
+    /* Add more specific styles as needed for smaller screens */
+}
+
+/* For screens with a minimum width of 769px */
+@media (min-width: 769px) {
+    .navbar {
+        padding: 10px;
+        /* Reset padding for larger screens */
+    }
+
+    .main,
+    .semanas {
+        padding: 80px;
+        /* Reset padding for larger screens */
+    }
+
+    .main {
+        min-height: 80vh;
+    }
+
+
+    .card {
+        width: 40rem;
+        /* Reset card width for larger screens */
+    }
+
+    footer {
+        padding: 60px;
+        /* Reset padding for larger screens */
+    }
+
+    /* Add more specific styles as needed for larger screens */
+}
+
+
+  /* Tamaño por defecto pantallas (1280-1024) */
+  @media all and (min-width: 1024px) and (max-width: 1280px) { }
+  
+  /* Tamaño tablet horizontal (1024-768) */
+  @media all and (min-width: 768px) and (max-width: 1024px) { }
+  
+  /* Tamaño tablet (768-480) */
+  @media all and (min-width: 480px) and (max-width: 768px) { }
+  
+  /* Tamaño teléfonos (480-menos ) */
+  @media all and (max-width: 480px) { }
+  
+  /*  Orientación: Vertical */
+  @media screen and (orientation:portrait) { }
+  
+  /* Orientación: Horizontal  */
+  @media screen and (orientation:landscape) { 
+    .main {
+        min-height: 60vh;
+    }
+  }
+  
+  /* iPhone - Orientación: Vertical */
+  @media screen and (max-device-width: 480px) and (orientation:portrait) { } 
+  
+  /* iPhone - Orientación: Horizontal  */
+  @media screen and (max-device-width: 480px) and (orientation:landscape) { }
+  
+  /* iPad - Orientación: Vertical */
+  @media screen and (min-device-width: 481px) and (orientation:portrait) { }
+  
+  /* iPad - Orientación: Horizontal  */
+  @media screen and (min-device-width: 481px) and (orientation:landscape) { }
