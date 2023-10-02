@@ -63,7 +63,13 @@ body {
 
 .card {
     margin-top: 50px;
-    height: 900px;
+    height: 800px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
 
 .billete {
@@ -83,6 +89,12 @@ body {
     background-position: center center; /* Center the background image */
 }
 
+
+/*************************************************************************************************/
+
+
+
+/*************************************************************************************************/
 
 footer {
     width: 100%;
