@@ -149,6 +149,8 @@ footer img {
 
 
     .semanas {
+
+        width: 1005;
         padding: 20px;
 
         /* Adjust padding for smaller screens */
@@ -157,7 +159,7 @@ footer img {
     .main {
         margin-top: 150px;
         width: auto;
-        min-width: 10vh;
+        min-width: 5vh;
         height: auto;
         min-height: 10vh;
         /* Reset padding for larger screens */
@@ -184,7 +186,7 @@ footer img {
     }
 
     footer {
-        padding: 20px;
+        padding: 5px;
 
         /* Adjust padding for smaller screens */
     }
