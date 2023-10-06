@@ -150,14 +150,17 @@ footer img {
 
     .semanas {
 
-        padding: 0px;
+        text-align: center;
+        padding: 30px;
+
 
 
         /* Adjust padding for smaller screens */
     }
 
     .semanas article:last-child {
-        margin-bottom: 50px; /* Cambia el valor según tus necesidades */
+        margin-bottom: 50px;
+        /* Cambia el valor según tus necesidades */
     }
 
     .main {
@@ -178,7 +181,6 @@ footer img {
         /* Make cards full width on smaller screens */
         /* Limit the maximum width of the card */
         height: auto;
-        margin-left: 30px;
     }
 
     .card img {
@@ -191,6 +193,10 @@ footer img {
         height: auto;
         min-height: 10vh;
 
+    }
+
+    footer {
+        padding: 10px;
     }
 
     /* Add more specific styles as needed for smaller screens */
