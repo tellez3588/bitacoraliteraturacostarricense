@@ -150,10 +150,14 @@ footer img {
 
     .semanas {
 
-        width: 1005;
-        padding: 20px;
+        padding: 0px;
+
 
         /* Adjust padding for smaller screens */
+    }
+
+    .semanas article:last-child {
+        margin-bottom: 50px; /* Cambia el valor según tus necesidades */
     }
 
     .main {
@@ -162,16 +166,19 @@ footer img {
         min-width: 5vh;
         height: auto;
         min-height: 10vh;
+
+
+
         /* Reset padding for larger screens */
 
     }
 
     .card {
-        width: 100%;
+        width: 20rem;
         /* Make cards full width on smaller screens */
-        max-width: 350px;
         /* Limit the maximum width of the card */
         height: auto;
+        margin-left: 30px;
     }
 
     .card img {
@@ -183,12 +190,7 @@ footer img {
         min-width: 10vh;
         height: auto;
         min-height: 10vh;
-    }
 
-    footer {
-        padding: 5px;
-
-        /* Adjust padding for smaller screens */
     }
 
     /* Add more specific styles as needed for smaller screens */
@@ -242,11 +244,7 @@ footer img {
 @media screen and (orientation:portrait) {}
 
 /* Orientación: Horizontal  */
-@media screen and (orientation:landscape) {
-    .main {
-        min-height: 60vh;
-    }
-}
+@media screen and (orientation:landscape) {}
 
 /* iPhone - Orientación: Vertical */
 @media screen and (max-device-width: 480px) and (orientation:portrait) {}
