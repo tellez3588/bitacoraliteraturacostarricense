@@ -149,7 +149,10 @@ footer img {
 
 
     .semanas {
-
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
         text-align: center;
         padding: 0px;
 
