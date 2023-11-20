@@ -105,6 +105,18 @@ body {
     /* Esto asegura que las imágenes mantengan su relación de aspecto original */
 }
 
+.card-img-container2 {
+  display: grid;
+  grid-template-columns: 1fr; 
+  grid-template-rows: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.card-img-container2 img {
+  width: 100%;
+  height: auto;
+}
+
 .card:hover {
     transform: scale(1.05);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
