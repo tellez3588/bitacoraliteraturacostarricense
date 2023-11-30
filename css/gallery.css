@@ -1,0 +1,18 @@
+
+.gallery-container {
+    
+    width: 90%;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.gallery-container img {
+    width: 500px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px;
+    aspect-ratio: 3/2;
+    flex-grow: 1;
+}
