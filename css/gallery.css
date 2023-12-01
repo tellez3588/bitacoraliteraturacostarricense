@@ -8,7 +8,7 @@
     display: grid;
     gap: 1rem;
     grid-template-columns: repeat(auto-fit, minmax(min(100%, 500px), 1fr));
-    background-color: aqua;
+    background-color: white;
 }
 
 .gallery-container img {
